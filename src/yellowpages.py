@@ -595,4 +595,8 @@ def update(db1, db2):
 
 def delete():
     clear_screen()
-    PROMPT = ''''''
+    PROMPT = '''===Delete Contacts===
+1. Select Category
+2. Show All Contacts
+3. Back to Main Menu
+'''
