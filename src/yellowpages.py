@@ -2,41 +2,71 @@ from tabulate import tabulate as tbl
 import pyinputplus as pyip
 import os
 import phonenumbers as phone
+import datetime
 
-def clear_screen():
+def clear_screen(): 
+    """Function to clear terminal
+    """    
     if os.name == 'nt':
         os.system('cls')
     else:
         os.system('clear')
 
 def show_categories(db1):
+    """Function to print categories table
+
+    Args:
+        db1 (dict): Categories database
+    """    
     header_cat = list(db1.values())[0]
     data_cat = list(db1.values())[1:]
     print(tbl(data_cat, header_cat, tablefmt="outline"))
 
 def select_category(id, db1, db2):
+    """Function to show contacts inside specified category
+
+    Args:
+        id (int): Category index
+        db1 (dict): Category database
+        db2 (dict): Contact database
+
+    Returns:
+        bool: Boolean to only run while loop when category ID exists
+        filter (dict): Filtered contacts
+    """    
     filter = {}
     category = db1.get(str(id))
 
-    if category:
+    if category: # Run code if category is True (not empty)
         for j, val in db2.items():
             if 'header' in j:
                 filter[j] = val
-            elif id == val[5]:
+            elif id == val[5]: # Add key-value pair to dictionary if category ID matches
                 filter[j] = val
         sort_important(filter)
-        return True
+        return True, filter
     else:
         clear_screen()
+        show_categories(db1)
         print(f'Category with ID {id} does not exist.')
-        return False
+        return False, filter
 
 def sort_oldest(db2):
+    """Function to sort contact database in ascending index order
+
+    Args:
+        db2 (dict): Contact database
+    """    
     header_cont = list(db2.values())[0]
     data_cont = list(db2.values())[1:]
     print(tbl(data_cont, header_cont, tablefmt="outline"))
 
 def sort_newest(db2):
+    """Function to sort contact database in descending index order
+
+    Args:
+        db2 (dict): Contact database
+    """    
     db2Keys = list(db2.keys())
     db2Keys.sort(reverse = True)
     sorted_db2 = {}
@@ -48,6 +78,13 @@ def sort_newest(db2):
     print(tbl(data_sort, header_sort, tablefmt="outline"))
 
 def sort_newest_cat(id, db1, db2):
+    """Function to sort filtered contact database in ascending index order
+
+    Args:
+        id (int): Category index
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
     filter = {}
     category = db1.get(str(id))
 
@@ -60,6 +97,13 @@ def sort_newest_cat(id, db1, db2):
     sort_newest(filter)
 
 def sort_oldest_cat(id, db1, db2):
+    """Function to sort filtered contact database in descending index order
+
+    Args:
+        id (int): Category index
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
     filter = {}
     category = db1.get(str(id))
 
@@ -73,9 +117,14 @@ def sort_oldest_cat(id, db1, db2):
         data1 = list(filter.values())[1:]
         print(tbl(data1, header1, tablefmt="outline"))
     else:
-        print(f'Category with ID {id} not found.')
+        print(f'Category with ID {id} does not exist.')
 
 def sort_important(db2):
+    """Function to push important contacts up (default)
+
+    Args:
+        db2 (dict): Contact database
+    """    
     important = {}
     other_data = {}
     for j, val in db2.items():
@@ -93,6 +142,15 @@ def sort_important(db2):
     print(tbl(data_imp + data_other, header_imp, tablefmt="outline"))
 
 def add_contact(id, contact_id, temp, db2, data_warn):
+    """Function to add contact into database
+
+    Args:
+        id (int): Category index
+        contact_id (int): Contact index (-1 for looping)
+        temp (dict): Temporary database
+        db2 (dict): Contact database
+        data_warn (dict): Database to show warning if duplicate
+    """    
     contact_id += 1
     name = pyip.inputStr('Enter new contact name: ').title()
     email = pyip.inputEmail('Enter the Email of the contact: ', blank = True)
@@ -126,23 +184,27 @@ def add_contact(id, contact_id, temp, db2, data_warn):
     return temp, warn, data_warn, contact_id
     
 def update_contact(id, id2, db1, db2):
-    category = db1.get(str(id))
+    """Function to edit contact
+
+    Args:
+        id (int): Category index
+        id2 (int): Contact index
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
     edit = ''
     found = False
-    if category:
-        for j, val in db2.items():
-            if id2 == val[0] and id == val[5]:
-                edit = pyip.inputChoice(['Name', 'Email', 'Website', 'Phone Number', 'Category', 'Important'], 
-                    "What would you like to edit? [Name, Email, Website, Phone Number, Category, Important]: ")
-                found = True
-    else:
-        clear_screen()
-        print(f'Category with ID {id} not found.')
+    for j, val in db2.items():
+        if id2 == val[0] and id == val[5]:
+            edit = pyip.inputChoice(['Name', 'Email', 'Website', 'Phone Number', 'Category', 'Important'], 
+                "What would you like to edit? [Name, Email, Website, Phone Number, Category, Important]: ")
+            found = True
     
     if found == False:
         clear_screen()
+        select_category(id, db1, db2)
         print(f'Contact with ID {id2} not found inside category.')
-    
+        
     temp = {}
     data_warn = []
     db2ls = list(db2.values())[id2]
@@ -251,34 +313,80 @@ def update_contact(id, id2, db1, db2):
             db2.update(temp)
         clear_screen()
 
+def delete_contact(id, id2, db1, db2):
+    """Function to delete contact
+
+    Args:
+        id (int): Category index
+        id2 (int): Contact index
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
+    clear_screen()
+    select_category(id, db1, db2)
+    found = False
+    temp = {}
+    for j, val in db2.items():
+        if id2 == val[0] and id == val[5]:
+            temp[str(id2)] = db2[str(id2)]
+            found = True
+
+    if found == False:
+        clear_screen()
+        print(f'Contact with ID {id2} not found inside category.')
+    else:
+        header_temp = list(db2.values())[0]
+        data_temp = list(temp.values())
+        clear_screen()
+        print(tbl(data_temp, header_temp, tablefmt = "outline"))
+        if db2[str(id2)][6] == True:
+            print("Warning! You have marked this contact as Important.")
+        confirm = pyip.inputYesNo(prompt = 'Are you sure you want to DELETE this contact? (yes/no): ')
+        if confirm == 'yes':
+            del db2[str(id2)]
+            for key, value in db2.copy().items():
+                if key == "header":
+                    continue
+                elif int(key) > id2: 
+                    new_key = str(int(key)-1)
+                    value[0] = int(new_key)
+                    db2[new_key] = value
+                    del db2[key]
+            db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]-1]})
+        clear_screen()
+    
 def show(db1, db2):
+    """Function for the Show/Read Menu
+
+    Args:
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
     clear_screen()
     PROMPT = '''
 ===View Contacts===
 
-1. Show Categories
-2. Select Category
-3. Show All Contacts
-4. Show Important
-5. Back To Main Menu
+1. Select Category
+2. Show All Contacts
+3. Show Important
+4. Back To Main Menu
 '''
     PROMPT2 = '''
 1. Sort by Newest
 2. Sort by Oldest
 3. Back'''
+    show_categories(db1)
 
     while True:
         print(PROMPT)
-        menu_show = pyip.inputInt(prompt = 'Choose Menu[1-5]: ', min = 1, max = 5)
+        menu_show = pyip.inputInt(prompt = 'Choose Menu[1-4]: ', min = 1, max = 4)
 
-        if menu_show == 1: # Show all categories
+        if menu_show == 1: # Select category IDc
             clear_screen()
             show_categories(db1)
-
-        elif menu_show == 2: # Select category ID
-            clear_screen()
             id = pyip.inputInt(prompt = 'Select Category ID: ')
-            exist = select_category(id, db1, db2)
+            clear_screen()
+            exist, filter = select_category(id, db1, db2)
 
             while exist == True:
                 print(PROMPT2)
@@ -291,9 +399,10 @@ def show(db1, db2):
                     sort_oldest_cat(id, db1, db2)
                 if submenu_show == 3:
                     clear_screen()
+                    show_categories(db1)
                     break
 
-        elif menu_show == 3: # Show all contacts
+        elif menu_show == 2: # Show all contacts
             clear_screen()
             sort_important(db2)
             while True:
@@ -307,9 +416,10 @@ def show(db1, db2):
                     sort_oldest(db2)
                 if show3 == 3:
                     clear_screen()
+                    show_categories(db1)
                     break
 
-        elif menu_show == 4: # Show contacts marked 'Important'
+        elif menu_show == 3: # Show contacts marked 'Important'
             clear_screen()
             important = {}
             for j, val in db2.items():
@@ -332,13 +442,20 @@ def show(db1, db2):
                     sort_oldest(important)
                 if show4 == 3:
                     clear_screen()
+                    show_categories(db1)
                     break
 
-        elif menu_show == 5: # Back to main menu
+        elif menu_show == 4: # Back to main menu
             clear_screen()
             break
 
 def add(db1, db2):
+    """Function for the Add/Create Menu
+
+    Args:
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
     clear_screen()
     PROMPT = '''
 ===Add Contacts===
@@ -348,14 +465,14 @@ def add(db1, db2):
 3. Back to Main Menu'''
 
     PROMPT2 = '''
-1. Add contact
-2. Add multiple contacts
+1. Add a contact into the Category
+2. Add multiple contacts into the Category
 3. Sort by Newest
 4. Sort by Oldest
 5. Back'''
+    show_categories(db1)
 
     while True:
-        show_categories(db1)
         print(PROMPT)
         menu_add = pyip.inputInt(prompt = 'Choose Menu[1-3]: ', min = 1, max = 3)
 
@@ -363,17 +480,17 @@ def add(db1, db2):
             clear_screen()
 
             temp = {}
-            add1 = pyip.inputInt(prompt = 'Enter the number of categories to add: ', min = 1)
+            add_cat = pyip.inputInt(prompt = 'Enter the number of categories to add: ', min = 0)
             category_id = len(db1) - 1
             data_warn = []
-            for i in range(add1):
+            warn_loop = False
+            for i in range(add_cat):
                 name = pyip.inputStr('Enter new category name: ').title()
-                warn = False
                 for key, val in db1.items():
                     if val[1] == name:
                         data_warn_temp = db1[key]
                         data_warn += [data_warn_temp]
-                        warn = True
+                        warn_loop = True
                 category_id += 1
                 temp.update({str(category_id): [category_id, name, 0]})
 
@@ -383,19 +500,22 @@ def add(db1, db2):
 
             print(tbl(data_temp, header_temp, tablefmt = 'outline'))
             
-            if warn == True:
+            if warn_loop == True:
                     print(f"\nWARNING! Categories already exists in database.")
                     print(tbl(data_warn, header_temp, tablefmt = 'outline'))
-
-            confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add these categories? (yes/no): ')
-            if confirm == 'yes':
-                db1.update(temp)
+            if add_cat > 0:
+                confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add these categories? (yes/no): ')
+                if confirm == 'yes':
+                    db1.update(temp)
             clear_screen()
+            show_categories(db1)
 
         if menu_add == 2: # Select category
             clear_screen()
+            show_categories(db1)
             id = pyip.inputInt(prompt = 'Select Category ID: ')
-            exist = select_category(id, db1, db2)
+            clear_screen()
+            exist, filter = select_category(id, db1, db2)
 
             while exist == True:
                 print(PROMPT2)
@@ -405,11 +525,8 @@ def add(db1, db2):
                     temp = {}
                     contact_id = len(db2) -1
                     data_warn = []
-                    count = 0
 
                     temp, warn, data_warn, contact_id = add_contact(id, contact_id, temp, db2, data_warn)
-                    
-                    count += 1
 
                     clear_screen()
                     header_temp = list(db2.values())[0]
@@ -434,8 +551,8 @@ def add(db1, db2):
                     data_warn = []
                     warn_loop = False
 
-                    add1 = pyip.inputInt(prompt = 'Enter the number of contacts to add: ', min = 2)
-                    for i in range(add1):
+                    add_loop = pyip.inputInt(prompt = 'Enter the number of contacts to add: ', min = 0)
+                    for i in range(add_loop):
                         temp, warn, data_warn, contact_id = add_contact(id, contact_id, temp, db2, data_warn)
                         if warn == True:
                             warn_loop = True
@@ -449,10 +566,11 @@ def add(db1, db2):
                         print(f"\nWARNING! Contacts already exists in database.")
                         print(tbl(data_warn, header_temp, tablefmt = 'outline'))
 
-                    confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add these contacts? (yes/no): ')
-                    if confirm == 'yes':
-                        db2.update(temp)
-                        db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]+add1]})
+                    if add_loop > 0:
+                        confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add these contacts? (yes/no): ')
+                        if confirm == 'yes':
+                            db2.update(temp)
+                            db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]+add_loop]})
                     clear_screen()
                     select_category(id, db1, db2)
 
@@ -465,6 +583,8 @@ def add(db1, db2):
                     sort_oldest_cat(id, db1, db2)
 
                 if submenu_add == 5:
+                    clear_screen()
+                    show_categories(db1)
                     break
 
         if menu_add == 3: # Back to main menu
@@ -473,21 +593,29 @@ def add(db1, db2):
     clear_screen()
 
 def update(db1, db2):
+    """Function for the Update Menu
+
+    Args:
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
     clear_screen()
-    PROMPT = '''===Change Contact Details===
+    PROMPT = '''
+===Change Contact Details===
+
 1. Change Category Name
 2. Select Category
 3. Show All Contacts
 4. Back To Main Menu'''
 
     PROMPT2 = '''
-1. Change Contact Detail
+1. Change detail of a contact in this category
 2. Sort by Newest
 3. Sort by Oldest
 4. Back'''
+    show_categories(db1)
 
     while True:
-        show_categories(db1)
         print(PROMPT)
         menu_update = pyip.inputInt(prompt = 'Choose Menu[1-4]: ', min = 1, max = 4)
 
@@ -504,7 +632,8 @@ def update(db1, db2):
                 temp.update({str(id): [id, new_category_name, list(db1.values())[id][2]]})
             else:
                 clear_screen()
-                print(f'Category with ID {id} not found.')
+                show_categories(db1)
+                print(f'Category with ID {id} does not exist.')
                 continue
             
             data_temp = list(temp.values())
@@ -527,12 +656,14 @@ def update(db1, db2):
             if confirm == 'yes':
                 db1.update(temp)
             clear_screen()
+            show_categories(db1)
 
         if menu_update == 2:
             clear_screen()
             show_categories(db1)
             id = pyip.inputInt(prompt = 'Select Category ID: ')
-            exist = select_category(id, db1, db2)
+            clear_screen()
+            exist, filter = select_category(id, db1, db2)
 
             while exist == True:
                 print(PROMPT2)
@@ -542,9 +673,9 @@ def update(db1, db2):
                     clear_screen()
                     select_category(id, db1, db2)
                     id2 = pyip.inputInt('Enter Contact ID to edit: ', min = 1)
+                    clear_screen()
                     update_contact(id, id2, db1, db2)
                     select_category(id, db1, db2)
-
 
                 if submenu_update == 2:
                     clear_screen()
@@ -555,6 +686,8 @@ def update(db1, db2):
                     sort_oldest_cat(id, db1, db2)
 
                 if submenu_update == 4:
+                    clear_screen()
+                    select_category(id, db1, db2)
                     break
 
         if menu_update == 3:
@@ -574,7 +707,9 @@ def update(db1, db2):
                         if id2 == val[0]:
                             id = val[5]
                     if id == 0:
-                        print(f'Contact with ID {id2} not found.')
+                        clear_screen()
+                        sort_important(db2)
+                        print(f'Contact with ID {id2} does not exist.')
                     else:
                         update_contact(id, id2, db1, db2)
                         sort_important(db2)
@@ -588,15 +723,176 @@ def update(db1, db2):
                     sort_oldest(db2)
 
                 if submenu_update == 4:
+                    clear_screen()
+                    show_categories(db1)
                     break
 
         if menu_update == 4:
             break
 
-def delete():
+def delete(db1, db2):
+    """Function for the Delete Menu
+
+    Args:
+        db1 (dict): Category database
+        db2 (dict): Contact database
+    """    
     clear_screen()
-    PROMPT = '''===Delete Contacts===
+    PROMPT = '''
+===Delete Contacts===
+
 1. Select Category
 2. Show All Contacts
 3. Back to Main Menu
 '''
+    PROMPT2 = '''
+1. Delete a contact in this Category
+2. Delete multiple contacts in this Category
+3. Sort by Newest
+4. Sort by Oldest
+5. Back
+'''
+    PROMPT3 = '''
+1. Delete a contact
+2. Delete multiple contacts
+3. Sort by Newest
+4. Sort by Oldest
+5. Back'''
+    show_categories(db1)
+
+    while True:
+        print(PROMPT)
+        menu_delete = pyip.inputInt(prompt = 'Choose Menu[1-3]: ', min = 1, max = 3)
+        
+        if menu_delete == 1:
+            clear_screen()
+            show_categories(db1)
+            id = pyip.inputInt(prompt = 'Select Category ID: ')
+            exist, filter = select_category(id, db1, db2)
+
+            while exist == True:
+                print(PROMPT2)
+                submenu_delete = pyip.inputInt('Choose Menu[1-5]: ', min = 1, max = 5)
+
+                if submenu_delete == 1:
+                    clear_screen()
+                    select_category(id, db1, db2)
+                    id2 = pyip.inputInt('Select Contact ID to delete: ', min = 1)
+                    delete_contact(id, id2, db1, db2)
+                    select_category(id, db1, db2)
+                    
+                if submenu_delete == 2:
+                    clear_screen()
+                    exist, filter = select_category(id, db1, db2)
+                    del_loop = pyip.inputInt('Enter the number of contacts to delete: ', min = 0)
+                    if del_loop > len(filter)-1:
+                        clear_screen()
+                        select_category(id, db1, db2)
+                        print(f'You only have {len(filter)-1} contacts in this category.')
+                    else:
+                        for i in range(del_loop):
+                            id2 = pyip.inputInt('Select Contact ID to delete: ', min = 1)
+                            delete_contact(id, id2, db1, db2)
+
+                if submenu_delete == 3:
+                    clear_screen()
+                    sort_newest_cat(id, db1, db2)
+
+                if submenu_delete == 4:
+                    clear_screen()
+                    sort_oldest_cat(id, db1, db2)
+        
+                if submenu_delete == 5:
+                    clear_screen()
+                    show_categories(db1)
+                    break
+
+        if menu_delete == 2:
+            clear_screen()
+            sort_important(db2)
+        
+            while True:
+                print(PROMPT3)
+                submenu_delete = pyip.inputInt('Choose Menu[1-5]: ', min = 1, max = 5)
+                
+                if submenu_delete == 1:
+                    clear_screen()
+                    sort_important(db2)
+                    id2 = pyip.inputInt('Select Contact ID to delete: ', min = 1)
+                    id = 0
+                    for j, val in db2.items():
+                        if id2 == val[0]:
+                            id = val[5]
+
+                    if id == 0:
+                        clear_screen()
+                        sort_important(db2)
+                        print(f'Contact with ID {id2} does not exist.')
+                    else:
+                        delete_contact(id, id2, db1, db2)
+                        sort_important(db2)
+
+                if submenu_delete == 2:
+                    clear_screen()
+                    sort_important(db2)
+                    del_loop = pyip.inputInt('Enter the number of contacts to delete: ', min = 0)
+                    if del_loop > len(db2)-1:
+                        clear_screen()
+                        sort_important(db2)
+                        print(f'You only have {len(db2)-1} contacts.')
+                    else:
+                        for i in range(del_loop):
+                            id2 = pyip.inputInt('Select Contact ID to delete: ', min = 1)
+                            id = 0
+                            for j, val in db2.items():
+                                if id2 == val[0]:
+                                    id = val[5]                            
+                            if id == 0:
+                                clear_screen()
+                                sort_important(db2)
+                                print(f'Contact with ID {id2} does not exist.')
+                            else:
+                                delete_contact(id, id2, db1, db2)
+                                sort_important(db2)
+
+                if submenu_delete == 3:
+                    clear_screen()
+                    sort_newest(db2)
+
+                if submenu_delete == 4:
+                    clear_screen()
+                    sort_oldest(db2)
+
+                if submenu_delete == 5:
+                    clear_screen()
+                    show_categories(db1)
+                    break    
+            
+        if menu_delete == 3:
+            break
+
+# change_history = []
+
+# def record_change(username, description):
+#     """Function to record change in the history log
+
+#     Args:
+#         username (str): The username of the user making the change
+#         description (str): Description of the change
+#     """
+#     timestamp = datetime.datetime.now()
+#     change_entry = {
+#         'timestamp': timestamp,
+#         'user': username,
+#         'description': description
+#     }
+#     change_history.append(change_entry)
+
+
+# def show_history():
+#     """Function to display change history
+#     """
+#     clear_screen()
+#     print("=== Change History ===")
+#     for i in change_history:
+#         print(f"Timestamp: {entry['timestamp']} | User: {entry['user']} | Description: {entry['description']}")
