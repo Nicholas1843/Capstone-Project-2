@@ -1,14 +1,41 @@
 import yellowpages as yp
 import pyinputplus as pyip
+import csv
+import os
 
-# Data Frame 1 containing Categories
-df1 = {
-    'header': ['Category_ID', 'Category', 'Number of entries'],
-    '1': [1, 'Universities', 2],
-    '2': [2, 'Hospitals', 2],
-    '3': [3, 'Restaurants', 2]
-}
+# Dictionary 1 containing Categories
 
+path = 'Data\yellowpages1.csv'
+df1 = {}
+
+with open(path, 'r') as csv_file:
+    csv_reader = csv.reader(csv_file)
+    
+    header = next(csv_reader)
+    df1['header'] = header[1:]
+
+    for row in csv_reader:
+        id = str(row[0])
+        values = row[1:]
+        df1[id] = [int(values[0]), values[1], int(values[2])]
+
+# print(df1)
+
+# path = 'Data\yellowpages2.csv'
+# df2 = {}
+
+# with open(path, 'r') as csv_file:
+#     csv_reader = csv.reader(csv_file)
+    
+#     header = next(csv_reader)
+#     df1['header'] = header[1:]
+
+#     for row in csv_reader:
+#         id = str(row[0])
+#         values = row[1:]
+#         df2[id] = values
+
+# Dictionary 2 containing contacts
 df2 = {
     'header': ['Contact_ID', 'Name', 'Email', 'Website', 'Phone Number', 'Category_ID', 'Important'],
     '1': [1, 'Universitas Gadjah Mada', 'info@ugm.ac.id', 'https://ugm.ac.id/', '+62 274 565223', 1, False],
@@ -18,6 +45,7 @@ df2 = {
     '5': [5, 'Jogja International Hospital', 'info@rs-jih.co.id', 'https://rs-jih.co.id/', '+62 274 4463535', 2, True],
     '6': [6, 'Jejamuran', '', '', '+62 274 868170', 3, False]
 }
+
 
 PROMPT = '''
 ===Business Contacts in Yogyakarta===
