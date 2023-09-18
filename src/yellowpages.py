@@ -228,12 +228,15 @@ def update_contact(id, id2, db1, db2):
         print(tbl(data_temp, header_temp, tablefmt = "outline"))
 
         if warn == True:
-            print(f"\nWARNING! Contacts already exists in database.")
+            print(f"\nWARNING! Contact already exists in database.")
             print(tbl(data_warn, header_temp, tablefmt = 'outline'))
-
-        confirm = pyip.inputYesNo(prompt = 'Are you sure you want to edit this contact? (yes/no): ')
-        if confirm == 'yes':
-            db2.update(temp)
+            pyip.inputStr('Press Enter to return', blank = True)
+        else:
+            confirm = pyip.inputYesNo(prompt = 'Are you sure you want to edit this contact? (yes/no): ')
+            if confirm == 'yes':
+                db2.update(temp)
+                print(f'{edit} successfully changed')
+                pyip.inputStr('Press Enter to return', blank = True)                
         clear_screen()
 
     if edit == 'Email':
@@ -246,6 +249,8 @@ def update_contact(id, id2, db1, db2):
         confirm = pyip.inputYesNo(prompt = 'Are you sure you want to edit this contact? (yes/no): ')
         if confirm == 'yes':
             db2.update(temp)
+            print(f'{edit} successfully changed')
+            pyip.inputStr('Press Enter to return', blank = True)
         clear_screen()
 
     if edit == 'Website':
@@ -258,6 +263,8 @@ def update_contact(id, id2, db1, db2):
         confirm = pyip.inputYesNo(prompt = 'Are you sure you want to edit this contact? (yes/no): ')
         if confirm == 'yes':
             db2.update(temp)
+            print(f'{edit} successfully changed')
+            pyip.inputStr('Press Enter to return', blank = True)            
         clear_screen()
 
     if edit == 'Phone Number':
@@ -279,6 +286,8 @@ def update_contact(id, id2, db1, db2):
         confirm = pyip.inputYesNo(prompt = 'Are you sure you want to edit this contact? (yes/no): ')
         if confirm == 'yes':
             db2.update(temp)
+            print(f'{edit} successfully changed')
+            pyip.inputStr('Press Enter to return', blank = True)            
         clear_screen()
 
     if edit == 'Category':
@@ -295,6 +304,8 @@ def update_contact(id, id2, db1, db2):
                 db2.update(temp)
                 db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]-1]})
                 db1.update({str(cat_id): [cat_id, list(db1.values())[cat_id][1], list(db1.values())[cat_id][2]+1]})
+                print(f'{edit} successfully changed')
+                pyip.inputStr('Press Enter to return', blank = True)                
                 clear_screen()
         else:
             clear_screen()
@@ -314,6 +325,8 @@ def update_contact(id, id2, db1, db2):
         confirm = pyip.inputYesNo(prompt = 'Are you sure you want to edit this contact? (yes/no): ')
         if confirm == 'yes':
             db2.update(temp)
+            print(f'{edit} successfully changed')
+            pyip.inputStr('Press Enter to return', blank = True)            
         clear_screen()
 
 def delete_contact(id, id2, db1, db2):
@@ -358,6 +371,8 @@ def delete_contact(id, id2, db1, db2):
                     db2[new_key] = value
                     del db2[key]
             db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]-1]})
+            print('Contact successfully deleted')
+            pyip.inputStr('Press Enter to return', blank = True)
         clear_screen()
     
 def show(db1, db2):
@@ -506,14 +521,16 @@ def add(db1, db2):
             print(tbl(data_temp, header_temp, tablefmt = 'outline'))
             
             if warn_loop == True:
-                    print(f"\nWARNING! Categories already exists in database.")
-                    print(tbl(data_warn, header_temp, tablefmt = 'outline'))
+                print(f"\nWARNING! Categories already exists in database.")
+                print(tbl(data_warn, header_temp, tablefmt = 'outline'))
             if add_cat > 0:
                 confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add these categories? (yes/no): ')
                 if confirm == 'yes':
                     db1.update(temp)
                     change_description = f"Added category '{name}'"
                     record_change(username, change_description)
+                    print('Category successfully added')
+                    pyip.inputStr('Press Enter to return', blank = True)
             clear_screen()
             show_categories(db1)
 
@@ -541,13 +558,16 @@ def add(db1, db2):
                     print(tbl(data_temp, header_temp, tablefmt = "outline"))
 
                     if warn == True:
-                        print(f"\nWARNING! Contacts already exists in database.")
+                        print(f"\nWARNING! Contact already exists in database.")
                         print(tbl(data_warn, header_temp, tablefmt = 'outline'))
-
-                    confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add this contact? (yes/no): ')
-                    if confirm == 'yes':
-                        db2.update(temp)
-                        db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]+1]})
+                        pyip.inputStr('Press Enter to return', blank = True)
+                    else:
+                        confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add this contact? (yes/no): ')
+                        if confirm == 'yes':
+                            db2.update(temp)
+                            db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]+1]})
+                            print('Contact successfully added')
+                            pyip.inputStr('Press Enter to return', blank = True)
                     clear_screen()
                     select_category(id, db1, db2)
 
@@ -578,6 +598,8 @@ def add(db1, db2):
                         if confirm == 'yes':
                             db2.update(temp)
                             db1.update({str(id): [id, list(db1.values())[id][1], list(db1.values())[id][2]+add_loop]})
+                            print('Contacts successfully added')
+                            pyip.inputStr('Press Enter to return', blank = True)
                     clear_screen()
                     select_category(id, db1, db2)
 
@@ -656,12 +678,15 @@ def update(db1, db2):
                     warn = True
             
             if warn == True:
-                        print(f"\nWARNING! Category Name already exists in database.")
-                        print(tbl(data_warn, header_temp, tablefmt = 'outline'))
-
-            confirm = pyip.inputYesNo(prompt = 'Are you sure you want to change this category name? (yes/no): ')
-            if confirm == 'yes':
-                db1.update(temp)
+                print(f"\nWARNING! Category Name already exists in database.")
+                print(tbl(data_warn, header_temp, tablefmt = 'outline'))
+                pyip.inputStr('Press Enter to return', blank = True)
+            else:
+                confirm = pyip.inputYesNo(prompt = 'Are you sure you want to change this category name? (yes/no): ')
+                if confirm == 'yes':
+                    db1.update(temp)
+                    print('Category name successfully changed')
+                    pyip.inputStr('Press Enter to return', blank = True)
             clear_screen()
             show_categories(db1)
 
@@ -905,4 +930,4 @@ def show_history():
     print("=== Change History ===")
     for i in change_history:
         print(f"Timestamp: {i['timestamp']} | User: {i['user']} | Description: {i['description']}")
-    pyip.inputStr('Press Enter to exit', blank = True)
+    pyip.inputStr('Press Enter to return', blank = True)

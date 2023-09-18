@@ -525,14 +525,6 @@
    'C:\\Users\\Nicholas '
    'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Nicholas '
-   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Nicholas '
-   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
-   'PYMODULE'),
   ('getpass',
    'C:\\Users\\Nicholas '
    'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getpass.py',
@@ -561,9 +553,17 @@
    'C:\\Users\\Nicholas '
    'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\cookiejar.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\Nicholas '
    'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
    'PYMODULE'),
   ('csv',
    'C:\\Users\\Nicholas '
