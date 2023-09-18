@@ -1,0 +1,3346 @@
+(['C:\\Users\\Nicholas '
+  'Aprilie\\OneDrive\\Documents\\Purwadhika\\VSCode\\src\\main.py'],
+ ['C:\\Users\\Nicholas Aprilie\\OneDrive\\Documents\\Purwadhika\\VSCode\\src'],
+ ['codecs'],
+ ['C:\\Users\\Nicholas '
+  'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\numpy\\_pyinstaller',
+  'C:\\Users\\Nicholas '
+  'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'C:\\Users\\Nicholas '
+  'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks\\__pycache__',
+  'C:\\Users\\Nicholas '
+  'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks',
+  'C:\\Users\\Nicholas '
+  'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
+  'C:\\Users\\Nicholas '
+  'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ {},
+ [],
+ [],
+ False,
+ False,
+ False,
+ {},
+ [],
+ [],
+ '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_pkgutil',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\OneDrive\\Documents\\Purwadhika\\VSCode\\src\\main.py',
+   'PYSOURCE')],
+ [('inspect',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\inspect.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\typing.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\configparser.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bz2.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\struct.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\gzip.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\copy.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pprint.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\optparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\argparse.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ast.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\signal.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ssl.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\hmac.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\csv.py',
+   'PYMODULE'),
+  ('pyinputplus',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\pyinputplus\\__init__.py',
+   'PYMODULE'),
+  ('stdiomask',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\stdiomask\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tty.py',
+   'PYMODULE'),
+  ('pysimplevalidate',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\pysimplevalidate\\__init__.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\__future__.py',
+   'PYMODULE'),
+  ('yellowpages',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\OneDrive\\Documents\\Purwadhika\\VSCode\\src\\yellowpages.py',
+   'PYMODULE'),
+  ('phonenumbers',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\__init__.py',
+   'PYMODULE'),
+  ('phonenumbers.util',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\util.py',
+   'PYMODULE'),
+  ('phonenumbers.unicode_util',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\unicode_util.py',
+   'PYMODULE'),
+  ('phonenumbers.tzdata.data0',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\tzdata\\data0.py',
+   'PYMODULE'),
+  ('phonenumbers.tzdata',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\tzdata\\__init__.py',
+   'PYMODULE'),
+  ('phonenumbers.timezone',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\timezone.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ZW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ZW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ZM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ZM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ZA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ZA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_YT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_YT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_YE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_YE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_XK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_XK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_WS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_WS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_WF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_WF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_VU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_VU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_VN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_VN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_VI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_VI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_VG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_VG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_VE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_VE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_VC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_VC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_VA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_VA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_UZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_UZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_UY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_UY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_US',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_US.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_UG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_UG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_UA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_UA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TV.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TJ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TD.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_TC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_TC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SX.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SV.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ST',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ST.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SJ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SD.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SB.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_SA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_SA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_RW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_RW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_RU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_RU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_RS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_RS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_RO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_RO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_RE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_RE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_QA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_QA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_PA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_PA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_OM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_OM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NP.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_NA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_NA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MX.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MV.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MQ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MQ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MP.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ML',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ML.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ME',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ME.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MD.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_MA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_MA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LV.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LB.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_LA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_LA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KP.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_KE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_KE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_JP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_JP.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_JO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_JO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_JM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_JM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_JE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_JE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IQ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IQ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_IE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_IE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ID',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ID.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_HU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_HU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_HT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_HT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_HR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_HR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_HN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_HN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_HK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_HK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GP.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GD.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GB.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_GA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_GA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_FR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_FR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_FO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_FO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_FM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_FM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_FK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_FK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_FJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_FJ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_FI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_FI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ET',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ET.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ES',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ES.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_ER',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_ER.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_EH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_EH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_EG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_EG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_EE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_EE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_EC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_EC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_DZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_DZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_DO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_DO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_DM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_DM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_DK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_DK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_DJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_DJ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_DE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_DE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CX.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CV.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CK.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CD.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_CA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_CA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BY.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BQ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BQ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BN.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BJ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BH.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BD.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BB.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_BA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_BA.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AZ.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AX.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AW.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AU.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AT.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AS.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AR.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AO.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AM.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AL.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AI.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AG.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AF.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AE.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AD.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata.region_AC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\region_AC.py',
+   'PYMODULE'),
+  ('phonenumbers.shortdata',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortdata\\__init__.py',
+   'PYMODULE'),
+  ('phonenumbers.re_util',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\re_util.py',
+   'PYMODULE'),
+  ('phonenumbers.prefix',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\prefix.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.locale',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\locale.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data9',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data9.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data8',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data8.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data7',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data7.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data6',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data6.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data5',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data5.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data4',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data4.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data3',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data3.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data28',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data28.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data27',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data27.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data26',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data26.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data25',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data25.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data24',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data24.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data23',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data23.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data22',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data22.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data21',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data21.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data20',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data20.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data2',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data2.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data19',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data19.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data18',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data18.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data17',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data17.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data16',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data16.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data15',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data15.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data14',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data14.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data13',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data13.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data12',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data12.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data11',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data11.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data10',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data10.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data1',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data1.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata.data0',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\data0.py',
+   'PYMODULE'),
+  ('phonenumbers.geodata',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geodata\\__init__.py',
+   'PYMODULE'),
+  ('phonenumbers.geocoder',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\geocoder.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ZW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ZW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ZM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ZM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ZA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ZA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_YT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_YT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_YE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_YE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_XK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_XK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_WS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_WS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_WF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_WF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_VU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_VU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_VN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_VN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_VI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_VI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_VG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_VG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_VE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_VE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_VC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_VC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_VA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_VA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_UZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_UZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_UY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_UY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_US',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_US.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_UG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_UG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_UA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_UA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TV.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TJ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TD.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_TA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_TA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SX.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SV.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ST',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ST.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SJ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SD.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SB.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_SA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_SA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_RW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_RW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_RU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_RU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_RS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_RS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_RO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_RO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_RE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_RE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_QA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_QA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_PA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_PA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_OM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_OM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NP.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_NA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_NA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MX.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MV.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MQ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MQ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MP.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ML',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ML.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ME',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ME.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MD.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_MA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_MA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LV.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LB.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_LA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_LA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KP.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_KE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_KE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_JP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_JP.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_JO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_JO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_JM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_JM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_JE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_JE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IQ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IQ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_IE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_IE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ID',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ID.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_HU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_HU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_HT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_HT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_HR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_HR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_HN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_HN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_HK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_HK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GQ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GQ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GP',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GP.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GD.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GB.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_GA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_GA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_FR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_FR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_FO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_FO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_FM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_FM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_FK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_FK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_FJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_FJ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_FI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_FI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ET',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ET.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ES',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ES.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_ER',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_ER.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_EH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_EH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_EG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_EG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_EE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_EE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_EC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_EC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_DZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_DZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_DO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_DO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_DM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_DM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_DK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_DK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_DJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_DJ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_DE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_DE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CX.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CV',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CV.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CK',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CK.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CD.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_CA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_CA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BY',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BY.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BQ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BQ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BN',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BN.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BJ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BJ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BH',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BH.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BD.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BB',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BB.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_BA',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_BA.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AZ',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AZ.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AX',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AX.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AW',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AW.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AU',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AU.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AT',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AT.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AS',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AS.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AR',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AR.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AO',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AO.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AM',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AM.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AL',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AL.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AI',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AI.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AG',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AG.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AF',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AF.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AE',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AE.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AD',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AD.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_AC',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_AC.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_979',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_979.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_888',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_888.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_883',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_883.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_882',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_882.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_881',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_881.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_878',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_878.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_870',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_870.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_808',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_808.py',
+   'PYMODULE'),
+  ('phonenumbers.data.region_800',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\region_800.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_995',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_995.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_972',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_972.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_971',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_971.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_95',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_95.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_94',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_94.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_91',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_91.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_90',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_90.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_856',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_856.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_855',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_855.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_84',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_84.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_81',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_81.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_7',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_7.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_679',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_679.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_676',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_676.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_675',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_675.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_66',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_66.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_64',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_64.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_62',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_62.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_61',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_61.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_595',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_595.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_58',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_58.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_55',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_55.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_54',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_54.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_52',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_52.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_506',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_506.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_505',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_505.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_49',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_49.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_44',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_44.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_43',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_43.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_39',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_39.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_385',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_385.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_381',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_381.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_380',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_380.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_373',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_373.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_372',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_372.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_36',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_36.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_359',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_359.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_358',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_358.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_352',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_352.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_351',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_351.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_350',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_350.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_34',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_34.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_31',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_31.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_30',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_30.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_27',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_27.py',
+   'PYMODULE'),
+  ('phonenumbers.data.alt_format_255',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\alt_format_255.py',
+   'PYMODULE'),
+  ('phonenumbers.data',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\data\\__init__.py',
+   'PYMODULE'),
+  ('phonenumbers.carrierdata.data2',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\carrierdata\\data2.py',
+   'PYMODULE'),
+  ('phonenumbers.carrierdata.data1',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\carrierdata\\data1.py',
+   'PYMODULE'),
+  ('phonenumbers.carrierdata.data0',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\carrierdata\\data0.py',
+   'PYMODULE'),
+  ('phonenumbers.carrierdata',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\carrierdata\\__init__.py',
+   'PYMODULE'),
+  ('phonenumbers.carrier',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\carrier.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\platform.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\codeop.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\cmd.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\difflib.py',
+   'PYMODULE'),
+  ('phonenumbers.phonenumbermatcher',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\phonenumbermatcher.py',
+   'PYMODULE'),
+  ('phonenumbers.shortnumberinfo',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\shortnumberinfo.py',
+   'PYMODULE'),
+  ('phonenumbers.phonenumberutil',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\phonenumberutil.py',
+   'PYMODULE'),
+  ('phonenumbers.asyoutypeformatter',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\asyoutypeformatter.py',
+   'PYMODULE'),
+  ('phonenumbers.phonemetadata',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\phonemetadata.py',
+   'PYMODULE'),
+  ('phonenumbers.phonenumber',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\phonenumbers\\phonenumber.py',
+   'PYMODULE'),
+  ('tabulate',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tabulate\\__init__.py',
+   'PYMODULE'),
+  ('tabulate.version',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tabulate\\version.py',
+   'PYMODULE'),
+  ('wcwidth',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Roaming\\Python\\Python39\\site-packages\\wcwidth\\__init__.py',
+   'PYMODULE'),
+  ('wcwidth.wcwidth',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Roaming\\Python\\Python39\\site-packages\\wcwidth\\wcwidth.py',
+   'PYMODULE'),
+  ('wcwidth.unicode_versions',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Roaming\\Python\\Python39\\site-packages\\wcwidth\\unicode_versions.py',
+   'PYMODULE'),
+  ('wcwidth.table_zero',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Roaming\\Python\\Python39\\site-packages\\wcwidth\\table_zero.py',
+   'PYMODULE'),
+  ('wcwidth.table_wide',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Roaming\\Python\\Python39\\site-packages\\wcwidth\\table_wide.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dataclasses.py',
+   'PYMODULE')],
+ [('python39.dll',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\python39.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('_lzma.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\AppData\\Local\\Programs\\Python\\Python39\\DLLs\\libffi-7.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\Nicholas '
+   'Aprilie\\OneDrive\\Documents\\Purwadhika\\VSCode\\build\\main\\base_library.zip',
+   'DATA')],
+ [])

@@ -3,6 +3,9 @@ import pyinputplus as pyip
 import os
 import phonenumbers as phone
 import datetime
+import getpass
+
+username = getpass.getuser()
 
 def clear_screen(): 
     """Function to clear terminal
@@ -343,6 +346,8 @@ def delete_contact(id, id2, db1, db2):
             print("Warning! You have marked this contact as Important.")
         confirm = pyip.inputYesNo(prompt = 'Are you sure you want to DELETE this contact? (yes/no): ')
         if confirm == 'yes':
+            change_description = f"Deleted contact '{list(db2.values())[id2][1]}' from category {list(db1.values())[id][1]}"
+            record_change(username, change_description)
             del db2[str(id2)]
             for key, value in db2.copy().items():
                 if key == "header":
@@ -507,6 +512,8 @@ def add(db1, db2):
                 confirm = pyip.inputYesNo(prompt = 'Are you sure you want to add these categories? (yes/no): ')
                 if confirm == 'yes':
                     db1.update(temp)
+                    change_description = f"Added category '{name}'"
+                    record_change(username, change_description)
             clear_screen()
             show_categories(db1)
 
@@ -768,6 +775,7 @@ def delete(db1, db2):
             clear_screen()
             show_categories(db1)
             id = pyip.inputInt(prompt = 'Select Category ID: ')
+            clear_screen()
             exist, filter = select_category(id, db1, db2)
 
             while exist == True:
@@ -780,7 +788,7 @@ def delete(db1, db2):
                     id2 = pyip.inputInt('Select Contact ID to delete: ', min = 1)
                     delete_contact(id, id2, db1, db2)
                     select_category(id, db1, db2)
-                    
+
                 if submenu_delete == 2:
                     clear_screen()
                     exist, filter = select_category(id, db1, db2)
@@ -871,28 +879,30 @@ def delete(db1, db2):
         if menu_delete == 3:
             break
 
-# change_history = []
+change_history = []
 
-# def record_change(username, description):
-#     """Function to record change in the history log
+def record_change(username, description):
+    """Function to record change in the history log
 
-#     Args:
-#         username (str): The username of the user making the change
-#         description (str): Description of the change
-#     """
-#     timestamp = datetime.datetime.now()
-#     change_entry = {
-#         'timestamp': timestamp,
-#         'user': username,
-#         'description': description
-#     }
-#     change_history.append(change_entry)
+    Args:
+        username (str): The username of the user making the change
+        description (str): Description of the change
+    """
+    timestamp = datetime.datetime.now()
+    timestamp = timestamp.strftime("%Y-%m-%d %H:%M:%S")
+    change_entry = {
+        'timestamp': timestamp,
+        'user': username,
+        'description': description
+    }
+    change_history.append(change_entry)
 
 
-# def show_history():
-#     """Function to display change history
-#     """
-#     clear_screen()
-#     print("=== Change History ===")
-#     for i in change_history:
-#         print(f"Timestamp: {entry['timestamp']} | User: {entry['user']} | Description: {entry['description']}")
+def show_history():
+    """Function to display change history
+    """
+    clear_screen()
+    print("=== Change History ===")
+    for i in change_history:
+        print(f"Timestamp: {i['timestamp']} | User: {i['user']} | Description: {i['description']}")
+    pyip.inputStr('Press Enter to exit', blank = True)

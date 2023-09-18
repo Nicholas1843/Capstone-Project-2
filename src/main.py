@@ -4,7 +4,7 @@ import csv
 import os
 
 # Dictionary 1 containing Categories
-path = 'Data\yellowpages1.csv'
+path = r'C:\Users\Nicholas Aprilie\OneDrive\Documents\Purwadhika\VSCode\Data\yellowpages1.csv'
 df1 = {}
 
 with open(path, 'r') as csv_file:
@@ -20,7 +20,7 @@ with open(path, 'r') as csv_file:
 # print(df1)
 
 # Dictionary 2 containing contacts
-path = 'Data\yellowpages2.csv'
+path = r'C:\Users\Nicholas Aprilie\OneDrive\Documents\Purwadhika\VSCode\Data\yellowpages2.csv'
 df2 = {}
 
 with open(path, 'r') as csv_file:
@@ -48,6 +48,7 @@ PROMPT = '''
 3. Edit Contacts
 4. Delete Contacts
 5. Quit
+6. Show History (WIP)
 '''
 
 def main():
@@ -57,7 +58,7 @@ def main():
     while True:
         yp.clear_screen()
         print(PROMPT)
-        menu = pyip.inputInt(prompt = 'Choose Menu[1-5]: ', min = 1, max = 5)
+        menu = pyip.inputInt(prompt = 'Choose Menu[1-6]: ', min = 1, max = 6)
 
         if menu == 1:
             yp.show(df1, df2)
@@ -69,6 +70,8 @@ def main():
             yp.delete(df1, df2)
         elif menu == 5:
             break
+        elif menu == 6:
+            yp.show_history()
         else:
             print('Option unavailable.')
 
