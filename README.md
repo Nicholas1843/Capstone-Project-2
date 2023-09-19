@@ -16,7 +16,7 @@ Or you can extract the file and run the Executable File inside the folder.
 ## Project Organization
 
 The directory structure of the Yellow Pages project looks like this:
-
+'''
 │
 ├── README.md            <- The top-level README for developers using this project.
 │
@@ -27,6 +27,6 @@ The directory structure of the Yellow Pages project looks like this:
 ├── src/                 <- Source code files for use in this project.
 │
 └── dist/                <- Contains the executable file to run the program in the terminal.
-
+'''
 ## Contribution
 If you'd like to contribute to Yellow Pages Apps, check out https://github.com/Nicholas1843/Yellow-Pages.
