@@ -1,7 +1,0 @@
-header,Contact_ID,Name,Email,Website,Phone Number,Category_ID,Important
-1,1,Universitas Gadjah Mada,info@ugm.ac.id,ugm.ac.id,+62 274 565223,1,False
-2,2,Siloam Hospitals Yogyakarta,info.shyg@siloamhospitals.com,siloamhospitals.com,+62 274 4600900,2,True
-3,3,Pizza Hut Jogja City Mall,customerservice@pizzahut.co.id,pizzahut.co.id,+62 811-3113-5401,3,False
-4,4,Universitas Negeri Yogyakarta,humas@uny.ac.id,uny.ac.id,+62 274 586168,1,True
-5,5,Jogja International Hospital,info@rs-jih.co.id,rs-jih.co.id,+62 274 4463535,2,True
-6,6,Jejamuran,,,+62 274 868170,3,False
